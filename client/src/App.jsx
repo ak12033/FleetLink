@@ -14,9 +14,9 @@ const App = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#334155] text-white font-sans">
+        <div className="min-h-screen bg-[url('/bg.jpg')] bg-cover bg-center text-white font-sans">
             {/* Navbar */}
-            <nav className="bg-gradient-to-r from-cyan-600 to-cyan-800 shadow-lg py-4 px-6 flex flex-col md:flex-row items-center justify-between">
+            <nav className="bg-gradient-to-r from-cyan-700 to-cyan-900 shadow-lg py-4 px-6 flex flex-col md:flex-row items-center justify-between via-transparent">
                 <h1 className="text-2xl font-extrabold tracking-wide text-white mb-2 md:mb-0">🚚 FleetLink</h1>
                 <div className="flex space-x-4">
                     {navItems.map(({ name, path }) => (
