@@ -6,7 +6,6 @@ import vehicleRouter from './routes/vehicleRoutes.js';
 import bookingRouter from './routes/bookingRoutes.js';
 
 const app = express()
-const PORT = process.env.PORT || 5000;
 
 await connectDB()
 
@@ -18,4 +17,5 @@ app.get('/', (req, res) => res.send("Server is Live!"));
 app.use('/api', vehicleRouter);
 app.use('/api', bookingRouter);
 
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server listening at http://localhost:${PORT}`));
