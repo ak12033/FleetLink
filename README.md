@@ -36,7 +36,7 @@ FleetLink is a modern full-stack logistics vehicle booking system built with the
 
 ## 🚀 Live Demo
 
-🌐 Click this: [https://pay-pro-lcrj.vercel.app/](https://fleet-link-xsys.vercel.app/)
+🌐 Click this: [click](https://fleet-link-xsys.vercel.app/)
 
 ---
 
